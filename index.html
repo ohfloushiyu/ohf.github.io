@@ -9,11 +9,11 @@
 <link rel="icon" href="初音未来.jpg">
 
 
-<div class="ohf">
+<div class="OHFstayion">
 
   <div class="theme-basic">
     <div class="theme-basic-title">
-      <title>OHF</title>
+      <title>OHFstation</title>
     </div>   
     <div class="theme-basic-mathjax">
         
@@ -76,9 +76,77 @@
       
         <script src="/js/totop.js"></script>
 <script src="/js/jquery.min.js"></script>
-<div id="totop"><a title="🚀To Top🚀"><img src="https://cdn.jsdelivr.net/gh/doflake/Picture/ToTop/Rem 100x100.png"/></a></div>
+<div id="totop"><a title="🚀To Top🚀"><img src="初音未来.jpg"/></a></div>
         
     </div>
   </div>
-  <body>
+
+  <div class="theme-css">
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  </div>
+
+  
+  
+  <author><div class="author">
+    <!-- <div class="author-avatar">
+        <div class="author-avatar-a">
+            <div class="author-avatar-b"></div>
+            <div class="author-avatar-img"></div>
+        </div>
+    </div> -->
+    <div class="author-avatar"></div>
+    <center><a class="author-title" href="/about/">doflake</a></center>
+    <center><p class="author-subtitle">Welcome to OHFstation&#39;s blog</p></center>
+    
+</div></author>
+</div>
+
+<footer><div class="footer">
+
+    <!-- TEXT -->
+    <div class="footer-text">
+
+        <div class="footer-runtime">
+            <div class="footer-text" id="runtime_span"></div>
+            <script type="text/javascript">			
+                function show_runtime() {
+                    window.setTimeout("show_runtime()", 1000);
+                    X = new Date("01/20/2021 21:00:00");
+                    Y = new Date();
+                    T = (Y.getTime() - X.getTime());
+                    M = 24 * 60 * 60 * 1000;
+                    a = T / M;
+                    A = Math.floor(a);
+                    b = (a - A) * 24;
+                    B = Math.floor(b);
+                    c = (b - B) * 60;
+                    C = Math.floor((b - B) * 60);
+                    D = Math.floor((c - C) * 60);
+                    runtime_span.innerHTML = "Running : " + A + " Day " + B + " Hour " + C + " Minute " + D + " Second "
+                }
+                show_runtime();
+            </script>
+        </div>
+
+    </div> 
+   
+    <!-- COPYRIGHT -->
+    <div class="footer-copyright">
+        <a href="https://doflake.github.io"><img src="https://img.shields.io/badge/Theme-doflake-ec87e4.svg"></a>
+    <div>
+    
+
+    <!-- FISH -->
+    <fish>
+        <div id="jsi-flying-fish-container"></div>
+        <script src='js/fish.js'></script>
+    </fish>
+</div>
+</footer>
+
+      </main>
+    </div>
+  </body>
 </html>
